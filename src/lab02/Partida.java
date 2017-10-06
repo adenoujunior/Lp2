@@ -6,7 +6,8 @@ public class Partida {
      
     private Date data;
     private Date hora;
-    
+    private Clube mandante;
+    private Clube visitante;
     
     
     

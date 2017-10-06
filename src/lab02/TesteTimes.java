@@ -4,9 +4,9 @@ package lab02;
 
 public class TesteTimes {
     
-     public static void imprimeTimeEstadio(Estadio e) {
-        for (int i = 0; i < e.getQuantideTimes(); i++) {
-            System.out.println("Clube: " + e.getTimes()[i].getNome());
+     public static void imprimeClubeEstadio(Estadio e) {
+        for (int i = 0; i < e.getQuantideClubes(); i++) {
+            System.out.println("Clube: " + e.getClubes()[i].getNome());
 
         }
     }
@@ -25,15 +25,15 @@ public class TesteTimes {
         Estadio e2 = new Estadio();
 
         e1.setNome("Maracana");
-        e1.setTimes(time1);
-        e1.setTimes(time2);
+        e1.setClubes(time1);
+        e1.setClubes(time2);
         e2.setNome("Morumbi");
-        e2.setTimes(time3);
+        e2.setClubes(time3);
 
         System.out.println("Estadio: " + e1.getNome());
-        imprimeTimeEstadio(e1);
+        imprimeClubeEstadio(e1);
 
         System.out.println("Estadio: " + e2.getNome());
-        imprimeTimeEstadio(e2);
+        imprimeClubeEstadio(e2);
     }
 }
