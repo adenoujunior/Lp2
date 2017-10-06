@@ -1,8 +1,16 @@
 package lab02;
 
+import java.util.Date;
 
 public class Partida {
-     private Arbitro juizes[] = new Arbitro[5];
+     
+    private Date data;
+    private Date hora;
+    
+    
+    
+    
+    private Arbitro juizes[] = new Arbitro[5];
     int quantidadeArbitro=0;
 
     public Arbitro[] getJuizes() {

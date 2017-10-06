@@ -3,7 +3,7 @@ package lab02;
 
 
 public class Arbitro {
-    public static void main(String[] args) {
-        
-    }
+    
+    private String nome;
+    private String funcao;
 }

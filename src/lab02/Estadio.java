@@ -2,15 +2,20 @@ package lab02;
 
 
 public class Estadio {
-    int quantideTimes = 0;
-    private Clube times[] = new Clube[4];
+    
+    private String cidadeDoEstadio;
+    private String nomeDoEstadio;
+    private String estadoDoEstadio;
+    
+    int quantideClubes = 0;
+    private Clube clubes[] = new Clube[4];
 
-    public Clube[] getTimes() {
-        return times;
+    public Clube[] getClubes() {
+        return clubes;
     }
 
-    public void setTimes(Clube time) {
-        this.times[this.quantideTimes] = time;
-        this.quantideTimes++;
+    public void setClubes(Clube clube) {
+        this.clubes[this.quantideClubes] = clube;
+        this.quantideClubes++;
     }
 }
