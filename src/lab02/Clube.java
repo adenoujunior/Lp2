@@ -9,6 +9,7 @@ public class Clube {
     
     
     
+    
      private Funcionario funcionario[]= new Funcionario[50];
     private int quantidadeFuncionario=0;
     
