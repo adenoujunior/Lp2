@@ -1,5 +1,5 @@
 package lab02;
-
+import java.util.Scanner;
 
 public class Estadio {
     
@@ -20,6 +20,26 @@ public class Estadio {
     }
 
    
+    public void setNomeDoEstadio(){
+        Scanner nome1 = new Scanner(System.in);
+        System.out.print("Informe o Estadio: " ); 
+        nomeDoEstadio = nome1.next();
+        
+    }
+    
+    public void setCidadeDoEstadio(){
+        Scanner nome1 = new Scanner(System.in);
+        System.out.print("Informe a cidade do estadio: " ); 
+        cidadeDoEstadio = nome1.next();
+    }
+    
+    public void setEstadoDoEstadio(){
+        Scanner nome2 = new Scanner(System.in);
+        System.out.print("Informe o estado do estadio: " ); 
+        estadoDoEstadio = nome2.next();
+    }
+    
+    
     
     /*Parte do gerador automatico*/
     public int getQuantideClubes() {

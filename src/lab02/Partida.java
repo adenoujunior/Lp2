@@ -2,7 +2,6 @@ package lab02;
 
 import java.util.Date;
 
-
 public class Partida {
      
     private Date data;
@@ -23,7 +22,9 @@ public class Partida {
         this.juizes[this.quantidadeArbitro] = juizes;
         this.quantidadeArbitro++;
     }
-
+    
+  
+    
     public int getQuantidadeArbitro() {
         return quantidadeArbitro;
     }
@@ -63,6 +64,8 @@ public class Partida {
     public void setVisitante(Clube visitante) {
         this.visitante = visitante;
     }
+
+    
     
 }
 

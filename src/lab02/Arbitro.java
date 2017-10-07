@@ -8,6 +8,12 @@ public class Arbitro {
     private String funcaoDoArbitro;
 
     
+    public void setNomeDoArbitro(){
+        System.out.println("Juiz: José Carlos");
+        System.out.println("Primeiro Auxiliar: Arthur Nascimento");
+        System.out.println("Segundo Auxiliar: Pedro Ricardo");
+    }
+    
     
     /*Parte do gerador automatico*/
     public String getNomeDoArbitro() {

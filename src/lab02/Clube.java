@@ -1,13 +1,12 @@
 
 package lab02;
-
+import java.util.Scanner;
 
 public class Clube {
     private String cidade;
-    private String nomeDoClube;
+    private String nomeDoClubeMandante;
     private String estado;
-    
-    
+    private String nomeDoClubeVisitante;
     
     
      private Funcionario funcionario[]= new Funcionario[50];
@@ -22,6 +21,25 @@ public class Clube {
         this.quantidadeFuncionario++;
     }
 
+    public void setNomeDoClubeMandante(){
+        Scanner nome4 = new Scanner(System.in);
+        
+        System.out.print("Informe o cluibe mandante da partida: " ); 
+        nomeDoClubeMandante = nome4.next(); 
+    }
+    
+    public void setNomeDoClubeVisitante(){
+        Scanner nome2 = new Scanner(System.in);
+        System.out.print("Informe o cluibe visitante da partida: " ); 
+        nomeDoClubeVisitante = nome2.next();
+    }
+    
+    
+    
+    
+    
+    
+    
     public int getQuantidadeFuncionario() {
         return quantidadeFuncionario;
     }
@@ -39,11 +57,11 @@ public class Clube {
     }
 
     public String getNomeDoClube() {
-        return nomeDoClube;
+        return nomeDoClubeMandante;
     }
 
     public void setNomeDoClube(String nomeDoClube) {
-        this.nomeDoClube = nomeDoClube;
+        this.nomeDoClubeMandante = nomeDoClube;
     }
 
     public String getEstado() {
@@ -52,6 +70,14 @@ public class Clube {
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    public String getNomeDoClubeVisitante() {
+        return nomeDoClubeVisitante;
+    }
+
+    public void setNomeDoClubeVisitante(String nomeDoClubeVisitante) {
+        this.nomeDoClubeVisitante = nomeDoClubeVisitante;
     }
     
 }
