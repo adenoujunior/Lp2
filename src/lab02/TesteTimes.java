@@ -3,7 +3,6 @@ package lab02;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Scanner;
 
 
 public class TesteTimes {
@@ -46,7 +45,7 @@ public class TesteTimes {
         e1.setEstadoDoEstadio();
         
         ab1.setQuantidadeArbitro(3);
-        //nomeDosArbitros.setNomeDoArbitro();
+        
         
         e1.setClubes(time1);
         e1.setClubes(time2);
